@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>aLis</title> <!-- TODO: ページのタイトル -->    
+    <link rel="shortcut icon" type="image/x-icon" href="./img/LOGO_ICON.png">
+
+    <!-- CSS (load bootstrap from a CDN) -->
+    <meta name="description" content=""> <!-- TODO: ページの説明文。特に記載することがない場合はこの行を削除してください -->
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/sidebar.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="css/font.css" rel="stylesheet">
+
+    <link rel="canonical" href="" /> <!-- TODO: ページの URL -->
+    <meta property="og:url" content="" /> <!-- TODO: ページの URL -->
+    <meta property="og:title" content="" /> <!-- TODO: ページのタイトル -->
+    <meta property="og:type" content="website"> <!-- TODO: top ページの場合は website, それ以外のページは article -->
+    <meta property="og:description" content="" /> <!-- TODO: ページの説明文 -->
+    <meta property="og:image" content="" /> <!-- TODO: SNS 共有されたときにタイムラインに表示される画像。『ogp 画像』等で検索し推奨フォーマットを確認してください -->
+    <meta property="og:site_name" content="" /> <!-- TODO: サイト名 -->
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary" /> <!-- TODO: twitter 共有されたときの表示形式。summary_large_image か summary を指定してください -->
+
+    <!-- TODO: 必要に応じて favicon を指定 -->
+</head>
+
+<body>
+<main>
+    <div id = "cover" class="cover">
+    <img onclick="step1();" src="./img/logo.png"/>
+</div>
+    <div id = "step1"  class="step1">
+      <div id="myNav" class="overlay">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<div id = "menu1" class="overlay-content contentsRow marginLeft100">
+		<div class="row2  menu-font">
+			<a class="link" href="/">Top</a>
+			<a class="link" href="/">NEWS</a>			
+			<a class="link" href="/">TUTORIAL</a>			
+			<a class="link" href="/">SHOP</a>
+		</div>
+		<div class="row2  menu-font">
+			<a class="link" href="/">ABOUT</a>
+			<a class="link" href="/">WORKS</a>
+			<a class="link" href="/">CONTACT</a>
+		</div>
+	</div>
+	<div id = "menu2" class="overlay-content  menu-font  marginLeft100">
+		<a class="link" href="/">Top</a>
+		<a class="link" href="/">ABOUT</a>
+		<a class="link" href="/">NEWS</a>
+		<a class="link" href="/">WORKS</a>
+		<a class="link" href="/">TUTORIAL</a>
+		<a class="link" href="/">CONTACT</a>
+		<a class="link" href="/">SHOP</a>
+	</div>
+	<div class="pos contentsRow">
+		
+			<a href="#"><img class="H30" src= ./img/vector-0.png></a>
+		
+			<a href="#"><img class="H30" src= ./img/vector-1.png></a>
+		
+			<a href="#"><img class="H30" src= ./img/vector-2.png></a>
+		
+			<a href="#"><img class="H30" src= ./img/vector-3.png></a>
+		
+			<a href="#"><img class="H30" src= ./img/vector-4.png></a>
+		
+	</div>
+  </div>
+  <span class="navbar" onclick="openNav()">&#9776; </span>
+  
+  
+	   
+    <div id="main">
+        <div id="kv" class="contents back">
+            <img  src="./img/head_char.png"/>
+        </div>
+        <div id="about" class="contents marginTB W1080 content16-font">
+            <div id="group" class="row2">
+                <div class="paddLR">
+                    <div class="paddLR contentsRow">
+                        <img src="./img/man.png" class="W160"/>
+                    </div>
+                    <div class="paddLR contentsRow ">
+                        <p class="name24-font">amity_sensei</p>
+                    </div>
+                    <div class="paddLR contentsRow">
+                        <p>アートディレクター / iPad YouTuber / olio.inc CEO</p>
+                    </div>
+                    <div class="paddLR contentsRow">
+                        <p>iPadをクリエイティブに使う方法をYouTubeで発信し、現在登録者数20万人を超える。セミナー講師など、クリエイターや企業の働き方を変えるワークデザインやコンサル業を行っている。書籍「iPadクリエイティブ」発売中。</p>
+                    </div>
+                </div>
+                <br>        
+                <div class="paddLR paddT contentsRow">
+                
+                    <a href="#"><img class="H23" src= ./img/vector-0.png /></a> &ensp;
+                
+                    <a href="#"><img class="H23" src= ./img/vector-1.png /></a> &ensp;
+                
+                    <a href="#"><img class="H23" src= ./img/vector-2.png /></a> &ensp;
+                
+                    <a href="#"><img class="H23" src= ./img/vector-3.png /></a> &ensp;
+                
+                    <a href="#"><img class="H23" src= ./img/vector-4.png /></a> &ensp;
+                
+                </div>
+                <div  class="contentsRow marginTB">                    
+                    <a href="#" class="paddLR"><button class="button-black button-font"> M O R E </button></a>
+                </div>
+            </div>
+            <div id="news" class="row2 news-BC">
+                <div class="paddLR paddT menu-font">N E W S</div>
+                
+                
+                <div class="paddLR contentsRow_left">
+                    <img src="./img/work-thumb-2.png" class="W144"/>
+                    <div class="paddLR">
+                        <p>Note更新。GoodNotes5をもっと使いこなす裏ワザ公開!!」</p>
+                        <p>2020.01.10</p>
+                    </div>
+                </div>
+                
+                 <hr> 
+                <div class="paddLR contentsRow_left">
+                    <img src="./img/work-thumb-2.png" class="W144"/>
+                    <div class="paddLR">
+                        <p>Note更新。GoodNotes5をもっと使いこなす裏ワザ公開!!」</p>
+                        <p>2020.01.10</p>
+                    </div>
+                </div>
+                
+                 <hr> 
+                <div class="paddLR contentsRow_left">
+                    <img src="./img/work-thumb-2.png" class="W144"/>
+                    <div class="paddLR">
+                        <p>Note更新。GoodNotes5をもっと使いこなす裏ワザ公開!!」</p>
+                        <p>2020.01.10</p>
+                    </div>
+                </div>
+                
+                <div  class="contentsRow marginTB">                    
+                    <a href="#" class="paddLR"><button class="button-black button-font"> ALL NEWS </button></a>
+                </div>
+            </div>
+        </div>
+        <div id="works" class="marginTB  W1080">
+            <div class="paddLR title-font">W O R K S</div>
+            <div class="contents">
+                
+                <div class="contents row3 marginTop">
+                    <div class="work-cont">
+                        <div id="work" class="work">
+                            <div class="inf"><div class=" marginLeft10">
+                                <p class="content12-font"> 2020 .12</p>
+                                <p class="content20-font"> 書籍 iPadクリエイティブ</p>
+                                <p class="content16-font"> KADOKOKAWA</p>
+                            </div></div>
+                        </div>
+                        <div class="work-ttl">
+                            <p class="contentB12-font">書籍 iPadクリエイティブ</p>
+                            <div class="work-bar"></div>
+                            <p class="content12-font">初の書籍 iPadクリエイティ<br>ブ発売!! | KADOKAWA</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contents row3 marginTop">
+                    <div class="work-cont">
+                        <div id="work" class="work">
+                            <div class="inf"><div class=" marginLeft10">
+                                <p class="content12-font"> 2020 .12</p>
+                                <p class="content20-font"> 書籍 iPadクリエイティブ</p>
+                                <p class="content16-font"> KADOKOKAWA</p>
+                            </div></div>
+                        </div>
+                        <div class="work-ttl">
+                            <p class="contentB12-font">書籍 iPadクリエイティブ</p>
+                            <div class="work-bar"></div>
+                            <p class="content12-font">初の書籍 iPadクリエイティ<br>ブ発売!! | KADOKAWA</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contents row3 marginTop">
+                    <div class="work-cont">
+                        <div id="work" class="work">
+                            <div class="inf"><div class=" marginLeft10">
+                                <p class="content12-font"> 2020 .12</p>
+                                <p class="content20-font"> 書籍 iPadクリエイティブ</p>
+                                <p class="content16-font"> KADOKOKAWA</p>
+                            </div></div>
+                        </div>
+                        <div class="work-ttl">
+                            <p class="contentB12-font">書籍 iPadクリエイティブ</p>
+                            <div class="work-bar"></div>
+                            <p class="content12-font">初の書籍 iPadクリエイティ<br>ブ発売!! | KADOKAWA</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contents row3 marginTop">
+                    <div class="work-cont">
+                        <div id="work" class="work">
+                            <div class="inf"><div class=" marginLeft10">
+                                <p class="content12-font"> 2020 .12</p>
+                                <p class="content20-font"> 書籍 iPadクリエイティブ</p>
+                                <p class="content16-font"> KADOKOKAWA</p>
+                            </div></div>
+                        </div>
+                        <div class="work-ttl">
+                            <p class="contentB12-font">書籍 iPadクリエイティブ</p>
+                            <div class="work-bar"></div>
+                            <p class="content12-font">初の書籍 iPadクリエイティ<br>ブ発売!! | KADOKAWA</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contents row3 marginTop">
+                    <div class="work-cont">
+                        <div id="work" class="work">
+                            <div class="inf"><div class=" marginLeft10">
+                                <p class="content12-font"> 2020 .12</p>
+                                <p class="content20-font"> 書籍 iPadクリエイティブ</p>
+                                <p class="content16-font"> KADOKOKAWA</p>
+                            </div></div>
+                        </div>
+                        <div class="work-ttl">
+                            <p class="contentB12-font">書籍 iPadクリエイティブ</p>
+                            <div class="work-bar"></div>
+                            <p class="content12-font">初の書籍 iPadクリエイティ<br>ブ発売!! | KADOKAWA</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contents row3 marginTop">
+                    <div class="work-cont">
+                        <div id="work" class="work">
+                            <div class="inf"><div class=" marginLeft10">
+                                <p class="content12-font"> 2020 .12</p>
+                                <p class="content20-font"> 書籍 iPadクリエイティブ</p>
+                                <p class="content16-font"> KADOKOKAWA</p>
+                            </div></div>
+                        </div>
+                        <div class="work-ttl">
+                            <p class="contentB12-font">書籍 iPadクリエイティブ</p>
+                            <div class="work-bar"></div>
+                            <p class="content12-font">初の書籍 iPadクリエイティ<br>ブ発売!! | KADOKAWA</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div  class="contents  marginTB">                    
+                <a href="#" class="paddLR"><button class="buttonL-black button-font"> ALL WORKS </button></a>
+            </div>
+        </div>
+        <div id="tutorials1" class="contentsRow tutorial-back1">
+            <div class ="paddLR row2 CW">
+                <p class="title-font">SEMINAR</p>
+                <p class="content20-font">オンラインにて iPadセミナーを配信中。<br> 実践的なテクニックを</p>
+                <p class="content16-font">この文章はダミーです。吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。この文章はダミーです。吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。</p>
+                <div  class="contents  marginTB">                    
+                    <a href="#" class="paddLR"><button class="button-white button-font"> ALL TUTORIALS </button></a>
+                </div>
+            </div>
+            <div class ="paddLR row2">
+                <img src="./img/image 2.png" class="W320"><br>
+                <img src="./img/image 4.png" class="W320">
+            </div>
+        </div>
+        <div id="tutorials2" class="contents tutorial-back2">
+            <div>
+                <div class ="contents CW">
+                    <p class="title-font">SEMINAR</p>
+                </div>
+                <div class ="contents paddLR CW">
+                    <p class="content20-font">もっとiPadを使いこなしたい方へ<br>iPadのオンラインセミナーを公開中</p>
+                </div>
+                <div class ="contentsRow paddLR marginTB">
+                    <div>
+                    <div>
+                        <img src="./img/image 2-1.png" class="H128">
+                        <img src="./img/image 1.png" class="H128">
+                    </div>
+                    <div>
+                        <img src="./img/image 1.png" class="H128">
+                        <img src="./img/image 1.png" class="H128">
+                    </div>
+                    </div>
+                </div>
+                <div class ="contents paddLR CW">
+                    <p class="content16-font">この文章はダミーです。吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。この文章はダミーです。吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。</p>
+                </div>
+                    <div  class="contents  marginTB">                    
+                        <a href="#" class="paddLR"><button class="button-white button-font"> SEE ALL </button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="channels1" class="contentsRow marginTB W1080">
+            <div class ="contentsRow paddLR row2">
+                <img src="./img/_DSC1361 1.png" class="H558">
+            </div>
+            <div class ="paddLR row2">
+                <p class="title-font">CHANNELS</p>
+                <p class="content16-font">この文章はダミーです。吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。この文章はダミーです。吾輩は猫である。名前はまだ無い。</p>
+                <div  class="marginTB"> 
+                    
+                    <div class="contentsRow_left">
+                        <img class="W80" src=./img/ch-icon-1.png>
+                        <div class="paddLR">
+                            <p class="name16-font">amity_sensei</p>
+                            <p class="content14-font">メインチャンネル。iPadの使い方やデザイン作り方を発信。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contentsRow_left">
+                        <img class="W80" src=./img/ch-icon-2.png>
+                        <div class="paddLR">
+                            <p class="name16-font">amity_sensei English</p>
+                            <p class="content14-font">英語版チャンネル。iPadのクリエイティブな使い方を海外へ発信。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contentsRow_left">
+                        <img class="W80" src=./img/ch-icon-3.png>
+                        <div class="paddLR">
+                            <p class="name16-font">あみてぃ</p>
+                            <p class="content14-font">iPad以外のガジェット紹介や、iPhoneの使い方を配信</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+        <div id="channels2" class="marginTB">
+            <div class ="paddLR">
+                <p class="title-font">CHANNELS</p>
+            </div>
+            <div class ="paddLR">
+                <p class="content16-font">この文章はダミーです。吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。この文章はダミーです。吾輩は猫である。名前はまだ無い。</p>
+            </div>
+            <div class ="contentsRow paddLR">
+                <img src="./img/_DSC1361 1-1.png" class="H200">
+            </div>
+            <div class ="paddLR">
+                <div  class="marginTB"> 
+                    
+                    <div class="contentsRow_left">
+                        <img class="W80" src=./img/ch-icon-1.png>
+                        <div class="paddLR">
+                            <p class="name16-font">amity_sensei</p>
+                            <p class="content14-font">メインチャンネル。iPadの使い方やデザイン作り方を発信。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contentsRow_left">
+                        <img class="W80" src=./img/ch-icon-2.png>
+                        <div class="paddLR">
+                            <p class="name16-font">amity_sensei English</p>
+                            <p class="content14-font">英語版チャンネル。iPadのクリエイティブな使い方を海外へ発信。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contentsRow_left">
+                        <img class="W80" src=./img/ch-icon-3.png>
+                        <div class="paddLR">
+                            <p class="name16-font">あみてぃ</p>
+                            <p class="content14-font">iPad以外のガジェット紹介や、iPhoneの使い方を配信</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <div id="frame" class="contents marginTB W1080">
+            <div class="row2 marginTop">
+                <div class=" store">
+                    <div class="contentsRow paddTB"> <img class="H42" src="./img/Vector3.png"/></div>
+                    
+                    <div class="contentsRow">
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame"></div>
+                        </div>
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame"></div>
+                        </div>
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame"></div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="contentsRow">
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame"></div>
+                        </div>
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame"></div>
+                        </div>
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame"></div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="contentsRow">
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame"></div>
+                        </div>
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame"></div>
+                        </div>
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame"></div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div  class="contents  paddTB">                    
+                        <a href="#" class="paddLR"><button class="button-black button-font"> INSTAGRAM </button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row2 marginTop">
+                <div class="store">
+                    <div class="contentsRow paddTB"> <img class="H42" src="./img/subtract.png"/></div>
+                    
+                    <div class="contentsRow">
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame">
+                            </div>
+                        </div>
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame">
+                            </div>
+                        </div>
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="contentsRow">
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame">
+                            </div>
+                        </div>
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame">
+                            </div>
+                        </div>
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="contentsRow">
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame">
+                            </div>
+                        </div>
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame">
+                            </div>
+                        </div>
+                        
+                        <div class="contentsRow frameRow3">
+                            <div id="frame" class="frame">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div  class="contents paddTB">                    
+                        <a href="#" class="paddLR"><button class="button-black button-font"> SHOP MORE </button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <hr> 
+  <div class="footer">
+	<div id = "footer1" class="contentsRow  W1080 contentL14-font">
+		<div class="row2 contentsRow">
+			<div class="row3">
+				<ul>
+					<li class="marginT16"><a class="link" href="/">Top</a></li>
+					<li class="marginT16"><a class="link" href="/">ABOUT</a></li>
+					<li class="marginT16"><a class="link" href="/">NEWS</a></li>
+				</ul>
+			</div>
+			<div class="row3">
+				<ul>
+					<li class="marginT16"><a class="link" href="/">WORKS</a></li>
+					<li class="marginT16"><a class="link" href="/">TUTORIAL</a></li>
+					<li class="marginT16"><a class="link" href="/">CONTACT</a></li>	
+				</ul>
+			</div>
+			<div>
+				<ul>	
+					<li class="marginT16"><a class="link" href="/">SHOP</a></li>
+					<li class="marginT16"><a class="link" href="/">PRIVACY POLICY</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row2 marginT10">
+			<ul class="textCenter">
+				
+					<a href="#"><img class="H20" src= ./img/vector-0.png></a>
+				
+					<a href="#"><img class="H20" src= ./img/vector-1.png></a>
+				
+					<a href="#"><img class="H20" src= ./img/vector-2.png></a>
+				
+					<a href="#"><img class="H20" src= ./img/vector-3.png></a>
+				
+					<a href="#"><img class="H20" src= ./img/vector-4.png></a>
+				
+			</ul>
+			<ul>
+				<li class="textCenter marginT16"><a class="link" href="/">pr@amitysensei.com</a></li>	
+			</ul>
+		</div>
+	</div>
+	<div id = "footer2" class="contentL14-font">
+		<ul>
+			<li class="marginT16"><a class="link" href="/">Top</a></li>
+			<li class="marginT16"><a class="link" href="/">ABOUT</a></li>
+			<li class="marginT16"><a class="link" href="/">NEWS</a></li>
+			<li class="marginT16"><a class="link" href="/">WORKS</a></li>
+			<li class="marginT16"><a class="link" href="/">TUTORIAL</a></li>
+			<li class="marginT16"><a class="link" href="/">CONTACT</a></li>
+			<li class="marginT16"><a class="link" href="/">SHOP</a></li>
+			<li class="marginT16"><a class="link" href="/">PRIVACY POLICY</a></li>
+		</ul>
+		<hr>
+		<ul>
+			
+				<a href="#"><img class="H20" src= ./img/vector-0.png></a>
+			
+				<a href="#"><img class="H20" src= ./img/vector-1.png></a>
+			
+				<a href="#"><img class="H20" src= ./img/vector-2.png></a>
+			
+				<a href="#"><img class="H20" src= ./img/vector-3.png></a>
+			
+				<a href="#"><img class="H20" src= ./img/vector-4.png></a>
+			
+		</ul>
+		<ul>
+			<li class="marginT16"><a class="link" href="/">pr@amitysensei.com</a></li>	
+		</ul>
+	</div>
+	<div class="contentB12-font"><p class=" textCenter">©︎2021 amity_sensei | olio.inc</p></div>
+	<br>
+  </div>
+  
+  
+	   
+    </div>
+</div>   
+</main>
+
+<script src="js/app.js"></script>
+</body>
+</html>

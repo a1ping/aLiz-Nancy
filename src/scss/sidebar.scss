@@ -1,0 +1,83 @@
+#menu1{
+    display:flex;
+    @media screen and (max-width: 900px) {
+        display:none;
+    }
+}
+#menu2{
+    display:none;
+    @media screen and (max-width: 900px) {
+        display:block;
+    }
+}
+  .navbar{
+      background-color: rgba(255, 255, 255, 0.5);
+      cursor:pointer;
+      z-index: 0;
+      position: fixed;
+      font-size:32px;
+      top:      10px;
+      left:     calc(100vw - 70px);
+  }
+  .overlay {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top:        20%;
+    width:      100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #333232;
+    display: block;
+    transition: 0.3s;
+    @media screen and (max-width: 900px) {
+        margin-left: 20px;
+    }
+  }
+  .pos{
+    position: absolute;
+    left:       calc(50% - 150px);
+    top:        90vh;
+    @media screen and (max-width: 900px) {
+        top:        80vh;
+    }
+  }
+  .overlay a:hover, .overlay a:focus {
+    color: #000000;
+    font-weight: bold;
+  }
+  .overlay .link:hover, .overlay .link:focus {
+    text-decoration: underline;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+}
