@@ -1,0 +1,37 @@
+  <div id="myNav" class="overlay">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<div id = "menu1" class="overlay-content contentsRow marginLeft100">
+		<div class="row2  menu-font">
+			<a class="link" href="/">Top</a>
+			<a class="link" href="/">NEWS</a>			
+			<a class="link" href="/">TUTORIAL</a>			
+			<a class="link" href="/">SHOP</a>
+		</div>
+		<div class="row2  menu-font">
+			<a class="link" href="/">ABOUT</a>
+			<a class="link" href="/">WORKS</a>
+			<a class="link" href="/">CONTACT</a>
+		</div>
+	</div>
+	<div id = "menu2" class="overlay-content  menu-font  marginLeft100">
+		<a class="link" href="/">Top</a>
+		<a class="link" href="/">ABOUT</a>
+		<a class="link" href="/">NEWS</a>
+		<a class="link" href="/">WORKS</a>
+		<a class="link" href="/">TUTORIAL</a>
+		<a class="link" href="/">CONTACT</a>
+		<a class="link" href="/">SHOP</a>
+	</div>
+	<div class="pos contentsRow">
+		<% 
+		var vectors = ["./img/vector-0.png", "./img/vector-1.png", "./img/vector-2.png", "./img/vector-3.png", "./img/vector-4.png"];
+		vectors.forEach(function (value) {  
+		%>
+			<a href="#"><img class="H30" src= <%= value %>></a>
+		<% }) %>
+	</div>
+  </div>
+  <span class="navbar" onclick="openNav()">&#9776; </span>
+  
+  
+	   
